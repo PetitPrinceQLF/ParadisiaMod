@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "paradisiamod:item/impure_bedrock/impure_bedrock_armor/impure_bedrock_helmet"
+  }
+}

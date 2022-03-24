@@ -1,0 +1,193 @@
+{
+	"credit": "By Haku_Slime",
+	"textures": {
+		"6": "paradisiamod:item/paradisium/paradisium_tool/paradisium_sword/texture_paradisium_sword_1",
+		"7": "paradisiamod:item/paradisium/paradisium_tool/paradisium_sword/texture_paradisium_sword_2",
+		"8": "paradisiamod:item/paradisium/paradisium_tool/paradisium_sword/texture_paradisium_sword_3"
+	},
+	"elements": [
+		{
+			"from": [7.65, 2.75, 7.9],
+			"to": [8.25, 19.05, 8.6],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-2.5, -6.5, -6.25]},
+			"faces": {
+				"north": {"uv": [0, 0, 0.6, 16], "texture": "#8"},
+				"east": {"uv": [0, 0, 0.7, 16], "texture": "#8"},
+				"south": {"uv": [0, 0, 0.6, 16], "texture": "#8"},
+				"west": {"uv": [0, 0, 0.7, 16], "texture": "#8"},
+				"up": {"uv": [0, 0, 0.6, 0.7], "texture": "#8"},
+				"down": {"uv": [0, 0, 0.6, 0.7], "texture": "#8"}
+			}
+		},
+		{
+			"from": [5.75, 7.25, 8],
+			"to": [10.2, 7.75, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-4.75, -6.75, -6]},
+			"faces": {
+				"north": {"uv": [0, 0, 4.45, 0.5], "texture": "#8"},
+				"east": {"uv": [0, 0, 0.5, 0.5], "texture": "#8"},
+				"south": {"uv": [0, 0, 4.45, 0.5], "texture": "#8"},
+				"west": {"uv": [0, 0, 0.5, 0.5], "texture": "#8"},
+				"up": {"uv": [0, 0, 4.45, 0.5], "texture": "#8"},
+				"down": {"uv": [0, 0, 4.45, 0.5], "texture": "#8"}
+			}
+		},
+		{
+			"from": [12.19267, 2.93214, 8],
+			"to": [13.19267, 3.43214, 8.5],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [0.34267, 0.08214, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 1, 0.5], "texture": "#8"},
+				"east": {"uv": [0, 0, 0.5, 0.5], "texture": "#8"},
+				"south": {"uv": [0, 0, 1, 0.5], "texture": "#8"},
+				"west": {"uv": [0, 0, 0.5, 0.5], "texture": "#8"},
+				"up": {"uv": [0, 0, 1, 0.5], "texture": "#8"},
+				"down": {"uv": [0, 0, 1, 0.5], "texture": "#8"}
+			}
+		},
+		{
+			"from": [7.02426, 11.13346, 8],
+			"to": [7.52426, 12.13346, 8.5],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [0.47426, 0.08346, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 1, 0.5], "rotation": 90, "texture": "#8"},
+				"east": {"uv": [0, 0, 1, 0.5], "rotation": 270, "texture": "#8"},
+				"south": {"uv": [0, 0, 1, 0.5], "rotation": 270, "texture": "#8"},
+				"west": {"uv": [0, 0, 1, 0.5], "rotation": 270, "texture": "#8"},
+				"up": {"uv": [0, 0, 0.5, 0.5], "rotation": 270, "texture": "#8"},
+				"down": {"uv": [0, 0, 0.5, 0.5], "rotation": 270, "texture": "#8"}
+			}
+		},
+		{
+			"from": [4.55918, 6.79068, 8],
+			"to": [5.55918, 7.29068, 8.5],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [6.80918, 6.54068, 7.25]},
+			"faces": {
+				"north": {"uv": [0, 0, 1, 0.5], "texture": "#8"},
+				"east": {"uv": [0, 0, 0.5, 0.5], "texture": "#8"},
+				"south": {"uv": [0, 0, 1, 0.5], "texture": "#8"},
+				"west": {"uv": [0, 0, 0.5, 0.5], "texture": "#8"},
+				"up": {"uv": [0, 0, 1, 0.5], "texture": "#8"},
+				"down": {"uv": [0, 0, 1, 0.5], "texture": "#8"}
+			}
+		},
+		{
+			"from": [5.39305, 8.28252, 8],
+			"to": [5.89305, 9.28252, 8.5],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [6.74305, 6.53252, 7.25]},
+			"faces": {
+				"north": {"uv": [0, 0, 1, 0.5], "rotation": 270, "texture": "#8"},
+				"east": {"uv": [0, 0, 1, 0.5], "rotation": 90, "texture": "#8"},
+				"south": {"uv": [0, 0, 1, 0.5], "rotation": 90, "texture": "#8"},
+				"west": {"uv": [0, 0, 1, 0.5], "rotation": 90, "texture": "#8"},
+				"up": {"uv": [0, 0, 0.5, 0.5], "rotation": 90, "texture": "#8"},
+				"down": {"uv": [0, 0, 0.5, 0.5], "rotation": 90, "texture": "#8"}
+			}
+		},
+		{
+			"from": [3.25, 7, 8],
+			"to": [4.25, 8, 8.5],
+			"rotation": {"angle": -45, "axis": "z", "origin": [0, 0, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 1, 1], "texture": "#7"},
+				"east": {"uv": [0, 0, 0.5, 1], "texture": "#7"},
+				"south": {"uv": [0, 0, 1, 1], "texture": "#7"},
+				"west": {"uv": [0, 0, 0.5, 1], "texture": "#7"},
+				"up": {"uv": [0, 0, 1, 0.5], "texture": "#7"},
+				"down": {"uv": [0, 0, 1, 0.5], "texture": "#7"}
+			}
+		},
+		{
+			"from": [3.45, 7.3, 7.9],
+			"to": [3.95, 7.8, 8.6],
+			"rotation": {"angle": -45, "axis": "z", "origin": [0, 0, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 0.5, 0.5], "texture": "#6"},
+				"east": {"uv": [0, 0, 0.7, 0.5], "texture": "#6"},
+				"south": {"uv": [0, 0, 0.5, 0.5], "texture": "#6"},
+				"west": {"uv": [0, 0, 0.7, 0.5], "texture": "#6"},
+				"up": {"uv": [0, 0, 0.5, 0.7], "texture": "#6"},
+				"down": {"uv": [0, 0, 0.5, 0.7], "texture": "#6"}
+			}
+		},
+		{
+			"from": [6.75, 8, 8.1],
+			"to": [9.25, 22.75, 8.35],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 14.75], "texture": "#7"},
+				"east": {"uv": [0, 0, 0.25, 14.75], "texture": "#7"},
+				"south": {"uv": [0, 0, 2.5, 14.75], "texture": "#7"},
+				"west": {"uv": [0, 0, 0.25, 14.75], "texture": "#7"},
+				"up": {"uv": [0, 0, 2.5, 0.25], "texture": "#7"},
+				"down": {"uv": [0, 0, 2.5, 0.25], "texture": "#7"}
+			}
+		},
+		{
+			"from": [20.3, 9.05, 8.25],
+			"to": [22.8, 11.4, 8.25],
+			"rotation": {"angle": 45, "axis": "z", "origin": [0, 0, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 2.25], "texture": "#7"},
+				"east": {"uv": [0, 0, 0, 2.25], "texture": "#7"},
+				"south": {"uv": [0, 0, 2.5, 2.25], "texture": "#7"},
+				"west": {"uv": [0, 0, 0, 2.25], "texture": "#7"},
+				"up": {"uv": [0, 0, 2.5, 0], "texture": "#7"},
+				"down": {"uv": [0, 0, 2.5, 0], "texture": "#7"}
+			}
+		},
+		{
+			"from": [7.05, 8.4, 8],
+			"to": [8.95, 22.2, 8.5],
+			"faces": {
+				"north": {"uv": [0, 0, 1.9, 13.8], "texture": "#6"},
+				"east": {"uv": [0, 0, 0.5, 13.8], "texture": "#6"},
+				"south": {"uv": [0, 0, 1.9, 13.8], "texture": "#6"},
+				"west": {"uv": [0, 0, 0.5, 13.8], "texture": "#6"},
+				"up": {"uv": [0, 0, 1.9, 0.5], "texture": "#6"},
+				"down": {"uv": [0, 0, 1.9, 0.5], "texture": "#6"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-7, -96, -11],
+			"translation": [0.25, 3.5, 2.75],
+			"scale": [2, 2, 2]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, -2],
+			"translation": [-0.75, 4, 1.75],
+			"scale": [2, 2, 2]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -107, 0],
+			"translation": [-1.5, 1, 2],
+			"scale": [2, 2, 2]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -107, 0],
+			"scale": [2, 2, 2]
+		},
+		"ground": {
+			"translation": [0, 8.5, 0],
+			"scale": [2, 2, 2]
+		},
+		"gui": {
+			"rotation": [0, 0, -42],
+			"translation": [-3.25, -3.75, 0],
+			"scale": [0.9375, 0.9375, 0.9375]
+		},
+		"fixed": {
+			"translation": [0.25, -2.25, -3.75],
+			"scale": [4, 4, 4]
+		}
+	},
+	"groups": [
+		{
+			"name": "Sword_Divinium",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+		}
+	]
+}

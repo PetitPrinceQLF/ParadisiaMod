@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "paradisiamod:item/divinium/divinium_tool/divinium_hoe"
+  }
+}

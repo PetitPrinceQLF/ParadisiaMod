@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "paradisiamod:item/paradisium/paradisium_armor/paradisium_helmet"
+  }
+}

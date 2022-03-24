@@ -1,0 +1,32 @@
+{
+  "itemGroup.paradisia_tab": "Paradisia Mod",
+
+
+
+  "item.paradisiamod.paradisium_ingot": "Paradisium Ingot",
+  "item.paradisiamod.paradisium_fragment": "Paradisium Fragment",
+
+
+  "item.paradisiamod.bedrock_ingot": "Bedrock Ingot",
+  "item.paradisiamod.bedrock_scrap": "Bedrock Scrap",
+
+  "item.paradisiamod.bedrock_helmet": "Bedrock Helmet",
+  "item.paradisiamod.bedrock_chestplate": "Bedrock Chestplate",
+  "item.paradisiamod.bedrock_legging": "Bedrock Legging",
+  "item.paradisiamod.bedrock_boots": "Bedrock Boots",
+
+
+  "item.paradisiamod.paradisium_sword": "Paradisium Sword",
+  "item.paradisiamod.paradisium_helmet": "Paradisium Helmet",
+  "item.paradisiamod.paradisium_chestplate": "Paradisium Chestplate",
+  "item.paradisiamod.paradisium_legging": "Paradisium Legging",
+  "item.paradisiamod.paradisium_boots": "Paradisium Boots",
+
+
+
+  "item.paradisiamod.dark_steel_katana": "Dark Steel Katana",
+
+
+
+  "block.paradisiamod.paradisium_ore": "Paradisium Ore"
+}
