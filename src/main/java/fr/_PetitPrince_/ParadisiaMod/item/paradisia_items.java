@@ -34,7 +34,7 @@ public class paradisia_items {
     public static final RegistryObject<Item> IMPURE_BEDROCK_LEGGINGS = ITEMS.register("impure_bedrock_leggings",
             () -> new ArmorItem(paradisia_armor_materials.IMPURE_BEDROCK, EquipmentSlot.LEGS,
                     new Item.Properties().tab(ParadisiaCreativeTab.Paradisia_armors_tab)));
-    public static final RegistryObject<Item> IMPURE_BEDROCK_BOOTS = ITEMS.register("impure_beParadisiaTabdrock_boots",
+    public static final RegistryObject<Item> IMPURE_BEDROCK_BOOTS = ITEMS.register("impure_bedrock_boots",
             () -> new ArmorItem(paradisia_armor_materials.IMPURE_BEDROCK, EquipmentSlot.FEET,
                     new Item.Properties().tab(ParadisiaCreativeTab.Paradisia_armors_tab)));
 
