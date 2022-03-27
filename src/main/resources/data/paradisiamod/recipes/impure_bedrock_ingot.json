@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "XXX",
+    "XDX",
+    "XXX"
+  ],
+  "key":
+  {
+    "X":
+    {
+      "item": "paradisiamod:impure_bedrock_scrap"
+    },
+    "D":
+    {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result":
+  {
+    "item": "paradisiamod:impure_bedrock_ingot",
+    "count": 1
+  }
+}
