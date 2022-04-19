@@ -13,13 +13,16 @@ import java.util.function.Supplier;
 
 public enum paradisia_armor_materials implements ArmorMaterial {
 
-    PARADISIUM("paradisium", 37, new int[]{6, 8, 10, 6}, 15, SoundEvents.ARMOR_EQUIP_GOLD,
+    COSMETICS("cosmetics", 0, new int[]{0, 0, 0, 0}, 15, SoundEvents.ARMOR_EQUIP_GOLD,
+            0F, 0F, () -> Ingredient.of(paradisia_items.COSMETICS_GEM.get())),
+
+    PARADISIUM("paradisium", 37, new int[]{7, 9, 11, 7}, 15, SoundEvents.ARMOR_EQUIP_GOLD,
             5.0F, 0.1F, () -> Ingredient.of(paradisia_items.PARADISIUM_INGOT.get())),
 
-    IMPURE_BEDROCK("impure_bedrock", 37, new int[]{3, 6, 8, 3}, 15, SoundEvents.ARMOR_EQUIP_NETHERITE,
+    IMPURE_BEDROCK("impure_bedrock", 1000, new int[]{3, 6, 8, 3}, 15, SoundEvents.ARMOR_EQUIP_NETHERITE,
             2.0F, 0F, () -> Ingredient.of(paradisia_items.IMPURE_BEDROCK_INGOT.get())),
 
-    DIVINIUM("divinium", 37, new int[]{8, 10,12, 8}, 15, SoundEvents.ARMOR_EQUIP_NETHERITE,
+    DIVINIUM("divinium", 37, new int[]{9, 11,13, 9}, 15, SoundEvents.ARMOR_EQUIP_NETHERITE,
             6.0F, 0.1F, () -> Ingredient.of(paradisia_items.DIVINIUM_INGOT.get()));
 
     private static final int[] HEALTH_PER_SLOT = new int[]{13, 15, 16, 11};

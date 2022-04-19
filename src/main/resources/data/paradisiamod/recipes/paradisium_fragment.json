@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "DDD",
+    "DDD",
+    "DDD"
+  ],
+  "key":
+  {
+    "D":
+    {
+      "item": "paradisiamod:paradisium_dust"
+    }
+  },
+  "result":
+  {
+    "item": "paradisiamod:paradisium_fragment",
+    "count": 1
+  }
+}

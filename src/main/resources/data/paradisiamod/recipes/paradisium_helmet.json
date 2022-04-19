@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "XXX",
+    "X X"
+  ],
+  "key":
+  {
+    "X":
+    {
+      "item": "paradisiamod:paradisium_ingot"
+    }
+  },
+  "result":
+  {
+    "item": "paradisiamod:paradisium_helmet",
+    "count": 1
+  }
+}

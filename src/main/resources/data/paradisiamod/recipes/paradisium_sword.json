@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "X",
+    "X",
+    "S"
+  ],
+  "key":
+  {
+    "X":
+    {
+      "item": "paradisiamod:paradisium_ingot"
+    },
+    "S":
+    {
+      "item": "minecraft:stick"
+    }
+  },
+  "result":
+  {
+    "item": "paradisiamod:paradisium_sword",
+    "count": 1
+  }
+}

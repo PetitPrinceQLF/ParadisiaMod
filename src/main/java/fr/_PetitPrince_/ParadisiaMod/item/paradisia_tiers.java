@@ -8,7 +8,7 @@ import java.util.function.Supplier;
 
 public enum paradisia_tiers implements Tier {
 
-    PARADISIUM (4, 2031, 9.0F, 4.0F, 15, () -> {
+    PARADISIUM (4, 2031, 9.0F, 10.0F, 15, () -> {
         return Ingredient.of(paradisia_items.PARADISIUM_INGOT.get());
     }),
 
@@ -16,11 +16,11 @@ public enum paradisia_tiers implements Tier {
         return Ingredient.of(paradisia_items.PARADISIUM_INGOT.get());
     }),
 
-    IMPURE_BEDROCK (3, 1561, 8.0f, 3.0f, 10, () -> {
+    IMPURE_BEDROCK (4, 15000, 7.0f, 3.0f, 10, () -> {
         return Ingredient.of(paradisia_items.IMPURE_BEDROCK_INGOT.get());
     }),
 
-    DIVINIUM (4, 2031, 9.0F, 4.0F, 15, () -> {
+    DIVINIUM (4, 3031, 13.0F, 12.0F, 15, () -> {
         return Ingredient.of(paradisia_items.DIVINIUM_INGOT.get());
     });
 

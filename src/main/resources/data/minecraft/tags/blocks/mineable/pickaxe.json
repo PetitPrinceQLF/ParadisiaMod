@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "paradisiamod:lucky_block",
-    "paradisiamod:paradisium_ore"
+    "paradisiamod:paradisium_ore",
+    "paradisiamod:deepslate_paradisium_ore"
   ]
 }

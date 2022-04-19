@@ -20,7 +20,8 @@ public class lucky_block {
 
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, ParadisiaMod.MOD_ID);
 
-    public static final RegistryObject<Block> LUCKY_BLOCK = registerBlock("lucky_block", () -> new Block(BlockBehaviour.Properties.of(Material.GLASS).noOcclusion().strength(0.3F)));
+    public static final RegistryObject<Block> LUCKY_BLOCK = registerBlock("lucky_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.GLASS).noOcclusion().strength(0.3F)));
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

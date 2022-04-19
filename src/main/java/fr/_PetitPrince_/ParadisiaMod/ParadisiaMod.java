@@ -1,9 +1,6 @@
 package fr._PetitPrince_.ParadisiaMod;
 
-import fr._PetitPrince_.ParadisiaMod.block.impure_bedrock_block;
-import fr._PetitPrince_.ParadisiaMod.block.lucky_block;
-import fr._PetitPrince_.ParadisiaMod.block.paradisium_ore;
-import fr._PetitPrince_.ParadisiaMod.block.reinforced_obsidian;
+import fr._PetitPrince_.ParadisiaMod.block.*;
 import fr._PetitPrince_.ParadisiaMod.item.paradisia_items;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
@@ -30,6 +27,7 @@ public class ParadisiaMod
 
         paradisia_items.register(eventBus);
         paradisium_ore.register(eventBus);
+        deepslate_paradisium_ore.register(eventBus);
         lucky_block.register(eventBus);
         impure_bedrock_block.register(eventBus);
         reinforced_obsidian.register(eventBus);
@@ -39,4 +37,5 @@ public class ParadisiaMod
     public void doClientSteuf(FMLClientSetupEvent event){
         ItemBlockRenderTypes.setRenderLayer(paradisium_ore.PARADISIUM_ORE.get(), RenderType.cutout());
     }
+
 }
