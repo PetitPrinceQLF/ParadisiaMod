@@ -1,6 +1,0 @@
-{
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "paradisiamod:item/impure_bedrock/impure_bedrock_tool/impure_bedrock_pickaxe"
-  }
-}

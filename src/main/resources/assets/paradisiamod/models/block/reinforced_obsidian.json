@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "paradisiamod:block/reinforced_obsidian/reinforced_obsidian"
-  }
-}

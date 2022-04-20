@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "paradisiamod:item/impure_bedrock/impure_bedrock_item/impure_bedrock_scrap"
-  }
-}

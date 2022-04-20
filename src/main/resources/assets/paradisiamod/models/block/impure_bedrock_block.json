@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "paradisiamod:block/impure_bedrock_block/impure_bedrock_block"
-  }
-}
